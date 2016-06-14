@@ -1,3 +1,13 @@
+## Instructions
+
+This project runs on NodeJS.  Make sure Node is installed and do run the
+following commands.
+
+`npm install`
+`node server.js`
+
+After this the server should run on localhost:8080.
+
 ## Optimizations
 
 ### Compress Images
