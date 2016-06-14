@@ -3,10 +3,15 @@
   "version": "1.0.0",
   "description": "### Compress Images",
   "main": "index.js",
-  "dependencies": {
-    "grunt-cli": "^1.2.0"
+  "dependencies": {},
+  "devDependencies": {
+    "connect": "^3.4.1",
+    "gulp": "^3.9.1",
+    "gulp-htmlmin": "^2.0.0",
+    "gulp-imagemin": "^3.0.1",
+    "gulp-minify-inline": "^0.2.1",
+    "serve-static": "^1.11.1"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
