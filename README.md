@@ -26,3 +26,8 @@ Inline style.css.
 ### Minify
 
 Minified index.html to save space while downloading.
+
+### Pizzas
+
+Removed several query selectors out of for loops.  
+Only call document.body.scrollTop once on each update.
