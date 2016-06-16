@@ -8,13 +8,13 @@ gulp.task('minify', function() {
     .pipe(htmlmin({
       collapseWhitespace: true
     }))
-    .pipe(gulp.dest('.'));
+    .pipe(gulp.dest('dist/'));
 });
 
 gulp.task('minify-inline', function() {
-  gulp.src('index.html')
+  gulp.src('dist/index.html')
     .pipe(minifyInline())
-    .pipe(gulp.dest('.'));
+    .pipe(gulp.dest('dist/'));
 });
 
 gulp.task('image', function() {

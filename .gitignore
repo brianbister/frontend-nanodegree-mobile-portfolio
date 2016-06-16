@@ -1,4 +1,5 @@
 .DS_store
+dist/
 ngrok
 node_modules/
 npm-debug.log
